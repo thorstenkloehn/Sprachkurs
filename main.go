@@ -5,7 +5,7 @@ import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"os"
-	"time"
+
 )
 
 type Vokabelm struct {
