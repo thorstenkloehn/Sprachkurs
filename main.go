@@ -13,7 +13,6 @@ type Vokabelm struct {
 	VokabelEnglisch string    `json:"Vokabel_Englisch"`
 	VokabelDeutsch  string    `json:"Vokabel_Deutsch"`
 	Lauschrift      string    `json:"Lauschrift"`
-	Datum           time.Time `json:"Datum"`
 }
 
 func main() {
